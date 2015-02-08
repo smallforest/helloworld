@@ -1,0 +1,47 @@
+#
+# ~/.gitignote
+#
+
+## Windows ##
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+#*.cab
+#*.msi
+#*.msm
+#*.msp
+
+## Mac ##
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+## version control system ##
+.git/
+.hg/
+.svn/
+
+## Vim ##
+*.un~
+Session.vim
+.netrwhist
+
+## eclipse ##
+.settings/
+.project
+.classpath
+.buildpath
+.factorypath
+## XCode ##
+*.xcodeproj/*
+
+## Build dir ##
+build/
+
+## Maven ##
+target/
+
